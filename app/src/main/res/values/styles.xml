@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--No title bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="SwitchCustom">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:thumb">@drawable/switch_selector</item>
+        <item name="android:track">@drawable/shape_switch_track</item>
+        <item name="android:textOn">ON</item>
+        <item name="android:textOff">OFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:showText">true</item> <!--textOff ,textOn 지정한 글자를 보여준다. -->
+    </style>
+
+</resources>
